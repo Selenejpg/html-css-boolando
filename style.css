@@ -1,18 +1,67 @@
-.levis{
-    display: inline-block;
+
+.card {
+
     position: relative;
-    width: 250px;
-    left: 20%;
-}
-
-.heart { 
-
-    background-color: white;
-    position: absolute;
-    color:black;
-    padding: 3px;
-    right: 0;
-    display: inline-block;  
     
 }
 
+.levis {
+    
+    width: 250px;
+    
+}
+
+div {
+    
+    display: inline-block;
+    
+}
+
+.heart {
+    
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    background-color: white;
+    padding: 5px;
+
+}
+
+.discount {
+    
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+}
+
+.fifty {
+
+    color: white;
+    background-color: red;
+    padding: 3px;
+    bottom: 20px;
+}
+
+.eco {
+    color: white;
+    background-color: green;
+    margin-left: 5px;
+    padding: 2px;
+}
+
+body {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.ecob {
+    color: white;
+    background-color: green;
+    margin-left: 0px;
+    padding: 2px;
+}
+
+.margin {
+
+    margin-top: 80px;
+}
