@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.photos {
+    width: 80%;
+    margin: auto;
+
+}
+
+.row {
+    background-color: red;
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}   
+
+.column {
+    display: inline-block;
+    width: calc(100% / 3);
+    height: 100%;
+    border-bottom: 1px solid black;
+}
