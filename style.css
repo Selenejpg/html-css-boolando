@@ -11,15 +11,19 @@
 }
 
 .row {
-    background-color: red;
-    height: 100px;
     width: 100%;
-    border-bottom: 1px solid black;
+    margin: 20px;
 }   
 
 .column {
     display: inline-block;
     width: calc(100% / 3);
-    height: 100%;
-    border-bottom: 1px solid black;
+    padding: 0 10px;
+}
+
+.column img {
+    width: 100%;
+    /* display block viene usato per rimuovere spazio sotto foto */
+    display: block;
+
 }
